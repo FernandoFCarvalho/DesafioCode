@@ -1,0 +1,13 @@
+:root {
+    --cor-1: #304269;
+    --cor-2: #86ABD4;
+    --cor-3: #d9e8f5;
+    --cor-4: #fff;
+    --cor-5: #f26101;
+    --preto: #000;
+}
+
+*{
+    font-family: Nanum Gothic, sans-serif;
+    font-weight: 400;
+}
