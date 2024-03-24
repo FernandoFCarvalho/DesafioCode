@@ -1,0 +1,171 @@
+
+body{
+    background-color: var(--cor-3);
+    user-select: none;
+}
+
+.logo{
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    background-color: var(--cor-1);
+    height: 4.2rem;
+    align-items: center;
+    justify-content: start;
+    z-index: 10;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0.5rem;
+    padding: 1.2rem;   
+    width: 100%;
+    height: 100%;
+}
+
+.giovanna, .fernando{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    padding: 2rem;
+    width: 80em;
+    height: 16.1rem;
+    z-index: 1;
+}
+
+.fotos{
+    width: 16rem;
+    height: 16rem;
+}
+
+
+h1{
+    color: var(--cor-5);
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+}
+
+.apresentacao{
+    color: var(--cor-1);
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.sobre{
+    color: var(--cor-1);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 1rem;
+    color: #000;
+}
+
+.texto-g{
+    align-items: center;
+    justify-content: start;
+    margin-left: 2rem;
+}
+
+.texto-f{
+    align-items: center;
+    text-align: end;
+    margin-right: 2rem;
+}
+
+.gio,.fer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-4);
+    height: 16rem;
+    padding: 2rem;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 12px;
+    gap: 8px;
+    height: 30px;
+    width: 70;
+    border: none;
+    background: var(--cor-3);
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+  }
+  
+  .lable {
+    line-height: 22px;
+    font-size: 15px;
+    color: var(--cor-5);
+    font-family: sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  .button:hover {
+    background: #86aad4a5;
+  }
+  
+  .button:hover .svg-icon {
+    animation: slope 1s linear infinite;
+  }
+  
+  @keyframes slope {
+    0% {
+    }
+  
+    50% {
+      transform: rotate(10deg);
+    }
+  
+    100% {
+    }
+  }
+
+  .conhecimentos-f{
+    display: flex;
+    flex-direction: row;
+    margin-right: -23rem;
+  }
+
+  .conhecimentos-g{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+  }
+
+  i{
+    width: 4rem;
+    height: 1rem;
+    font-size: 1.5rem;
+  }
+
+
+  footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--cor-1);
+    height: 3.5rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+  }
