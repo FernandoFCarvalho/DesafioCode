@@ -1,57 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/variables.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"/>
     <title>Home</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <a href="https://www.linkedin.com/company/codejuniordomhelder/"><img class="logo" src="img/3-removebg.png" width="200px" height="100px"></a>
-
-        <a href="#gio">Giovanna</a>
-        <a href="#fernando">Fernando</a>
+      <div class="header">
+        <div class="logo">
+          <a href="https://www.linkedin.com/company/codejuniordomhelder/"
+            ><img src="img/logo-code.png"
+          /></a>
+        </div>
+      </div>
     </header>
 
-    <h1>Giovanna</h1>
-    <div class="gio">
-        <h2>descrição</h2>
-        <h3>Prazer eu sou a Giovanna Penido, uma estudante de Ciência da Computação dedicada a aprender sobre o mundo digital.</h3>
-        <h4>Sinto um entusiasmo contagiante ao mergulhar nos códigos e algoritmos que permeiam meu cotidiano! Acredito firmemente na importância da presença feminina no universo tecnológico, e sempre busco desafiar estereótipos e inspirar outras mulheres a se aventurarem nesse campo fascinante. Cada linha de código que escrevo é uma afirmação de que as mulheres não só pertencem, mas também prosperam na Ciência da Computação.
+    <main class="conteudo">
+      <section class="giovanna">
+        <div class="imagem">
+          <img class="fotos" src="img/Giovanna.jpg" alt="Giovanna" />
+        </div>
+        <div class="gio">
+          <div class="texto-g">
+            <h1>GIOVANNA PENIDO</h1>
+            <p class="apresentacao">
+              "Prazer eu sou a Giovanna Penido, uma estudante de Ciência da
+              Computação dedicada a aprender sobre o mundo digital."
+            </p>
+            <div class="sobre">
+              Sinto um entusiasmo contagiante ao mergulhar nos códigos e
+              algoritmos que permeiam meu cotidiano. Cada linha de código que
+              escrevo é uma afirmação de que as mulheres não só pertencem, mas
+              também prosperam na Ciência da Computação.
+            </div>
+            <div class="conhecimentos-g">
+              <button class="button">
+                <span class="lable">HTML</span>
+              </button>
+              <button class="button">
+                <span class="lable">CSS</span>
+              </button>
+              <button class="button">
+                <span class="lable">JAVASCRIPT</span>
+              </button>
+              <button class="button">
+                <span class="lable">JAVA</span>
+              </button>
+              <button class="button">
+                <span class="lable">UX/UI</span>
+              </button>
+              <button class="button">
+                <span class="lable">ARDUINO</span>
+              </button>
+              <button class="button">
+                <span class="lable">C</span>
+              </button>
+              <button class="button">
+                <span class="lable">WORDPRESS</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
 
-            Possuo conhecimentos em HTML, CSS, Javascript, Java, C, WordPress, UX / UI, Prototipagem, Arduíno, Lógica de programação. Atualmente estou aprofundando meus conhecimentos em cibersegurança.</h4>
-    </div>
-
-
-    <h1>Fernando</h1>
-    <div class="fernando">
-        <h3>Olá mundo! Eu me chamo Fernando estudante da Dom Helder pelo curso de Ciência da Computação.</h3>
-        <h4>Sempre gostei muito de tecnologia, des de quando eu era pequeno, achava fascinante como celulares, computadores e qualquer outro dispositivo eletronico funcionava. E algum dia eu farei parte das equpes que fazem essa magica acontecer.
-            Possuo conhecimento em Java, Javascript, banco de dados sql.    
-        </h4>
-    </div>
+      <section class="fernando">
+        <div class="fer">
+          <div class="texto-f">
+            <h1>FERNANDO CARVALHO</h1>
+            <p class="apresentacao">
+              "Olá mundo! Eu me chamo Fernando estudante da Dom Helder pelo
+              curso de Ciência da Computação."
+            </p>
+            <p class="sobre">
+              Sempre gostei muito de tecnologia, desde quando eu era pequeno.
+              Achava fascinante como celulares, computadores e qualquer outro
+              dispositivo eletrônico funcionavam. E algum dia farei parte das
+              equipes que fazem essa mágica acontecer.
+            </p>
+          </div>
+          <div class="conhecimentos-f">
+            <button class="button">
+              <span class="lable">JAVA</span>
+            </button>
+            <button class="button">
+              <span class="lable">JAVASCRIPT</span>
+            </button>
+            <button class="button">
+              <span class="lable">SQL</span>
+            </button>
+            <button class="button">
+              <span class="lable">BANCO DE DADOS</span>
+            </button>
+          </div>
+        </div>
+        <div class="imagem">
+          <img class="fotos" src="img/Fernando.jpg" alt="Fernando" />
+        </div>
+      </section>
+    </main>
 
     <footer>
-        <!-- Giovanna -->
-        <div class="ft-gio">
-            <a href="https://www.linkedin.com/in/fernando-r-franco-de-carvalho-58252a206?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img class="linkedin_Icon" src="img/174857.png" width="15px" height="15px"> Giovanna Penido Linkedin</a>
-
-            <a href="https://github.com/GiovannaSPenido" target="_blank"><img class="github_Icon" src="img/githubicon.png" width="20px" height="20px">Giovanna Penido Github</a>
-        </div>
-
-        <!-- Fernando -->
-        <div class="ft-Fernando"> 
-        <a href="https://www.linkedin.com/in/giovanna-penido-a513a3271/?originalSubdomain=br" target="_blank"><img class="linkedin_Icon" src="img/174857.png" width="15px" height="15px"> Fernando Linkedin</a>
-
-        
-        <a href="https://github.com/FernandoFCarvalho" target="_blank"><img class="github_Icon" src="img/githubicon.png" width="20px" height="20px">Fernando Github</a>
-
-        </div>  
-
-        
-
+      <!-- Giovanna -->
+      <div class="ft-gio">
+        <a
+          href="https://www.linkedin.com/in/giovanna-penido-a513a3271/"
+          ><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
+        <a href="https://github.com/GiovannaSPenido" target="_blank"
+          ><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+      </div>
+        <p>🤍</p>
+      <!-- Fernando -->
+      <div class="ft-Fernando">
+        <a
+          href="https://www.linkedin.com/in/fernando-r-franco-de-carvalho-58252a206?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+        </a>
+        <a href="https://github.com/FernandoFCarvalho" target="_blank"
+          ><i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+        </a>
+      </div>
     </footer>
-    
-</body>
+  </body>
 </html>
